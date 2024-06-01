@@ -1,0 +1,55 @@
+# Node.js dependencies
+/node_modules
+
+# Build outputs
+/.next
+/out
+/build
+/.genkit
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+firebase-debug.log
+firebase-debug.*.log
+firestore-debug.log
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# OS system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Testing and coverage
+coverage/
+.nyc_output/
+.eslintcache
+
+# Build caches
+.turbo/
+.next/cache
+
+# Firebase local config
+.firebase/
+
+# Temporary files
+temp/
+tmp/
+
+# Misc system files
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel / deployment cache
+.vercel
+
+# Environment files
+.env*
+!.env.example
